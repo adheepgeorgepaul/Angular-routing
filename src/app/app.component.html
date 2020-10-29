@@ -15,7 +15,7 @@
           <a 
             routerLink="/servers" 
             routerLinkActive="active"
-            routerLinkActiveOptions={exact:true} 
+            [routerLinkActiveOptions]={exact:true} 
             class="nav-link">
             Servers
           </a>
@@ -24,7 +24,7 @@
           <a 
           [routerLink]="['/users']" 
           routerLinkActive="active"
-          routerLinkActiveOptions={exact:true}
+          [routerLinkActiveOptions]={exact:true}
           class="nav-link">
           Users
         </a>
